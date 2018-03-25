@@ -19,4 +19,4 @@ class Song
 end
 
 song = Song.create
-Song.all.include?(song)
+puts Song.all.include?(song)
