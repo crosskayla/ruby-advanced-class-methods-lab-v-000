@@ -22,6 +22,7 @@ class Song
     placeh = self.new
     placeh.name = song_name
     @@all << placeh
+    return placeh
   end
 
 end
