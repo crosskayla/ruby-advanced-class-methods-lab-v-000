@@ -39,4 +39,7 @@ class Song
     create_by_name(song_name) unless find_by_name(song_name)
     find_by_name(song_name)
   end
+
+  def alphabetical
+  end
 end
