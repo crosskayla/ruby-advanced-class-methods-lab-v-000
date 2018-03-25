@@ -34,6 +34,7 @@ class Song
   def self.find_by_name(song_name)
     @@all.find do |song|
       song.name = song_name
+      return song
     end
   end
 
