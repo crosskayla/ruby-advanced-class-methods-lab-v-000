@@ -18,6 +18,10 @@ class Song
     return placeh
   end
 
+  def self.new_by_name
+    
+  end
+
 end
 
 song = Song.create
