@@ -40,6 +40,7 @@ class Song
     find_by_name(song_name)
   end
 
-  def alphabetical
+  def self.alphabetical
+    all.sort_by(|song| song.downcase)
   end
 end
