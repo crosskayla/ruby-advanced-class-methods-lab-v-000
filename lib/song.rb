@@ -48,5 +48,6 @@ class Song
     song_artist, song_name = file_name.chomp('.mp3').split('-')
     song = find_or_create_by_name(song_name)
     song.artist_name = song_artist
+    song
   end
 end
