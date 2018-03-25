@@ -11,7 +11,7 @@ class Song
   def save
     self.class.all << self
   end
-  
+
   def self.create(name)
     self.New
     self.class.all << name
@@ -20,3 +20,4 @@ class Song
 end
 
 song1 = Song.new
+song1.name = "Blank Space"
