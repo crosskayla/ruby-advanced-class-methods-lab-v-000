@@ -57,4 +57,7 @@ class Song
     song.artist_name = song_artist.strip
     song
   end
+
+  def self.destroy_all
+    all.clear
 end
