@@ -20,4 +20,3 @@ end
 
 song = Song.create
 puts Song.all.include?(song)
-binding.pry
