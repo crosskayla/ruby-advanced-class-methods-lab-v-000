@@ -21,3 +21,4 @@ end
 
 song1 = Song.new
 song1.name = "Blank Space"
+binding.pry
