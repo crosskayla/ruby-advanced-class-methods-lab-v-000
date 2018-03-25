@@ -13,16 +13,16 @@ class Song
   end
 
   def self.create
-    placeh = self.new
-    @@all << placeh
-    return placeh
+    song = self.new
+    @@all << song
+    song
   end
 
   def self.new_by_name(song_name)
-    placeh = self.new
-    placeh.name = song_name
-    @@all << placeh
-    return placeh
+    song = self.new
+    song.name = song_name
+    @@all << song
+    song
   end
 
 end
