@@ -13,10 +13,11 @@ class Song
   end
 
   def self.create
-    @all << self
+    @@all << self
   end
 
 end
 
 song = Song.create
 puts Song.all.include?(song)
+binding.pry
